@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 2em;
+    color: #1E2835;
+    background-color: #F8F8F8;
+}
+.light {
+    color: #C7CACD;
+}
+a, a:active, a:hover, a:visited {
+    color: #F37A7B;
+}
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inner {
+    max-width: 700px;
+}
+input {
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+.add-item-form input {
+    border: 2px solid #C7CACD;
+}
+li {
+    border: 2px solid #C7CACD;
+    padding: 10px;
+}
+form, ul {
+    margin: 0;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    width: 700px;
+    list-style-type: none;
+}
+.add-item-form {
+    margin-bottom: 40px;
+}
+.delete {
+    float: right;
+}
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.filter{
+  width: 100%;
+  display: flex;
+  align-items:stretch;
+  flex-direction:row;
+}
+#timeCreated,#LastSuccses{
+  width: 300px;
+  height:50px;
+  padding: 20px;
+  margin: 20px;
+  font-size:17px;
+  margin: .4rem;
+
+}
+#cartype{
+  height:50px;
+  margin: 5px;
+}
+.cellStyle{
+  align:center;
+  margin:10px;
+  font-size: 25px;
+  style:bold;
+  color:blue;
+  width: 33%;
+}
+.filter{
+  font-size:18px;
+  align:left;
+  margin: 10px;
+}

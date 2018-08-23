@@ -1,0 +1,13 @@
+{
+  "name": "node-shopping-list",
+  "version": "1.0.0",
+  "description": "Shopping List Node/REST-CRUD API Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0"
+  }
+}
